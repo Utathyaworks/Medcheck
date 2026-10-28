@@ -123,7 +123,42 @@ Each run prints per-seed progress and a final summary table to stdout, and
 writes full per-seed metrics (+ paired bootstrap deltas, for the oracle script)
 to the corresponding JSON file in `outputs/`.
 
-## 6. Reference results
+## 6. Evaluation protocol (exact seeds, splits, vocab sizes)
+
+- **Seeds:** `[42, 1, 7, 123, 2024]` — all metrics are computed once per seed,
+  then reported as mean ± std across these 5 seeds.
+- **Dev/eval split:** per group, per seed, `split_dev_eval(n, frac_dev=0.3, seed=seed)`
+  shuffles indices with `np.random.RandomState(seed)` and takes the first 30%
+  as the **dev** set (used only to build the kNN reference set and the
+  z-score mean/std for both `knn` and `vocab`), the remaining 70% as the
+  **eval** set (used for AUROC/AUPR/FPR95).
+- **kNN:** `k=20` nearest neighbors, cosine similarity (`X_query @ X_dev.T`),
+  against the ID dev embeddings only.
+- **Paired bootstrap** (oracle script only): `n_boot=1000` resamples per
+  `(seed, shift, comparison)`, same `seed` as the split, reports
+  `delta_AUROC_pp` (fusion − component, in percentage points) and a 95% CI
+  (2.5th/97.5th percentile of the bootstrap deltas).
+- **Vocabulary size:** 10 "known/ID" terms + 10 "unseen/OOD" terms per
+  dataset, for both the oracle and generic vocabularies (so 4 lists of 10
+  terms total: ophthalmology known/unseen, dermatology known/unseen).
+
+### Dataset counts (exact)
+
+| Benchmark | Group | Count | Total |
+|---|---|---|---|
+| Ophthalmology | `id` | 300 | **900** |
+| Ophthalmology | `semantic` | 300 | |
+| Ophthalmology | `covariate` | 150 | |
+| Ophthalmology | `far_ood` | 150 | |
+| Dermatology | `id` | 300 | **1,200** |
+| Dermatology | `semantic` | 300 | |
+| Dermatology | `covariate` | 300 | |
+| Dermatology | `far_ood` | 300 | |
+
+Within each seed's 30/70 dev/eval split, these counts divide accordingly
+(e.g. ophthalmology `id`: 90 dev / 210 eval; `covariate`: 45 dev / 105 eval).
+
+## 7. Reference results
 
 Precomputed outputs from a prior run are included in `outputs/` for reference:
 
