@@ -27,6 +27,41 @@ encoder).
 
 ---
 
+## Quick start
+
+```bash
+# 1. Clone and set up environment
+git clone https://github.com/Utathyaworks/Medcheck.git
+cd Medcheck
+python -m venv .venv && source .venv/bin/activate   # Windows: .venv\Scripts\activate
+pip install -r requirements.txt
+
+# 2. Get FLAIR (needed for the ophthalmology benchmark)
+git clone https://github.com/jusiro/FLAIR.git flair_repo
+# then download flair_resnet.pth and place it at:
+#   flair/modeling/flair_pretrained_weights/flair_resnet.pth
+# (BiomedCLIP for dermatology downloads automatically on first run)
+
+# 3. Download datasets (FIVES, DeepDRiD, ISIC 2019, PAD-UFES-20, ImageNet-1k val
+#    — links in section 3 below) and build two manifest CSVs pointing at them:
+#      data/manifests/benchmark_manifest.csv
+#      data/manifests/dermatology_manifest.csv
+
+# 4. Edit ROOT and the flair_repo path at the top of both scripts to match
+#    your layout:
+#      ROOT = Path("/workspace/medical_ood")
+#      sys.path.insert(0, "/workspace/medical_ood/flair_repo")
+
+# 5. Run
+python run_scout_final_with_bootstrap.py     # oracle vocabulary
+python run_scout_generic_vocab.py            # generic vocabulary ablation
+```
+
+Results are written to `outputs/scout_final_verified_results.json` and
+`outputs/scout_generic_vocab_results.json`, with progress printed live.
+
+---
+
 ## 1. Environment
 
 ```bash
