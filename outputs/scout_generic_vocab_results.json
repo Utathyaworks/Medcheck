@@ -1,0 +1,532 @@
+{
+  "ophthalmology": {
+    "results": {
+      "knn_only": {
+        "42": {
+          "semantic": {
+            "AUROC": 77.53,
+            "AUPR": 78.56,
+            "FPR95": 61.43
+          },
+          "covariate": {
+            "AUROC": 99.82,
+            "AUPR": 99.72,
+            "FPR95": 0.0
+          },
+          "far_ood": {
+            "AUROC": 100.0,
+            "AUPR": 99.99,
+            "FPR95": 0.0
+          }
+        },
+        "1": {
+          "semantic": {
+            "AUROC": 80.08,
+            "AUPR": 82.59,
+            "FPR95": 62.38
+          },
+          "covariate": {
+            "AUROC": 99.98,
+            "AUPR": 99.97,
+            "FPR95": 0.0
+          },
+          "far_ood": {
+            "AUROC": 100.0,
+            "AUPR": 100.0,
+            "FPR95": 0.0
+          }
+        },
+        "7": {
+          "semantic": {
+            "AUROC": 76.09,
+            "AUPR": 77.35,
+            "FPR95": 61.9
+          },
+          "covariate": {
+            "AUROC": 100.0,
+            "AUPR": 100.0,
+            "FPR95": 0.0
+          },
+          "far_ood": {
+            "AUROC": 99.94,
+            "AUPR": 99.89,
+            "FPR95": 0.0
+          }
+        },
+        "123": {
+          "semantic": {
+            "AUROC": 76.83,
+            "AUPR": 76.62,
+            "FPR95": 63.81
+          },
+          "covariate": {
+            "AUROC": 99.93,
+            "AUPR": 99.87,
+            "FPR95": 0.0
+          },
+          "far_ood": {
+            "AUROC": 99.88,
+            "AUPR": 99.78,
+            "FPR95": 0.0
+          }
+        },
+        "2024": {
+          "semantic": {
+            "AUROC": 78.64,
+            "AUPR": 80.81,
+            "FPR95": 61.43
+          },
+          "covariate": {
+            "AUROC": 99.89,
+            "AUPR": 99.81,
+            "FPR95": 0.0
+          },
+          "far_ood": {
+            "AUROC": 99.99,
+            "AUPR": 99.98,
+            "FPR95": 0.0
+          }
+        }
+      },
+      "vocab_generic_only": {
+        "42": {
+          "semantic": {
+            "AUROC": 82.32,
+            "AUPR": 77.4,
+            "FPR95": 59.05
+          },
+          "covariate": {
+            "AUROC": 98.8,
+            "AUPR": 98.22,
+            "FPR95": 5.24
+          },
+          "far_ood": {
+            "AUROC": 97.61,
+            "AUPR": 94.88,
+            "FPR95": 9.05
+          }
+        },
+        "1": {
+          "semantic": {
+            "AUROC": 81.72,
+            "AUPR": 76.98,
+            "FPR95": 51.43
+          },
+          "covariate": {
+            "AUROC": 99.37,
+            "AUPR": 98.8,
+            "FPR95": 5.24
+          },
+          "far_ood": {
+            "AUROC": 97.34,
+            "AUPR": 94.11,
+            "FPR95": 8.57
+          }
+        },
+        "7": {
+          "semantic": {
+            "AUROC": 81.93,
+            "AUPR": 78.25,
+            "FPR95": 53.81
+          },
+          "covariate": {
+            "AUROC": 99.64,
+            "AUPR": 99.3,
+            "FPR95": 3.33
+          },
+          "far_ood": {
+            "AUROC": 97.56,
+            "AUPR": 94.97,
+            "FPR95": 10.0
+          }
+        },
+        "123": {
+          "semantic": {
+            "AUROC": 83.13,
+            "AUPR": 80.08,
+            "FPR95": 58.1
+          },
+          "covariate": {
+            "AUROC": 98.98,
+            "AUPR": 98.53,
+            "FPR95": 3.81
+          },
+          "far_ood": {
+            "AUROC": 98.16,
+            "AUPR": 95.87,
+            "FPR95": 6.19
+          }
+        },
+        "2024": {
+          "semantic": {
+            "AUROC": 83.11,
+            "AUPR": 79.14,
+            "FPR95": 53.33
+          },
+          "covariate": {
+            "AUROC": 98.85,
+            "AUPR": 98.27,
+            "FPR95": 3.81
+          },
+          "far_ood": {
+            "AUROC": 97.85,
+            "AUPR": 95.31,
+            "FPR95": 7.62
+          }
+        }
+      },
+      "scout_generic": {
+        "42": {
+          "semantic": {
+            "AUROC": 81.88,
+            "AUPR": 81.76,
+            "FPR95": 51.9
+          },
+          "covariate": {
+            "AUROC": 99.72,
+            "AUPR": 99.61,
+            "FPR95": 0.0
+          },
+          "far_ood": {
+            "AUROC": 100.0,
+            "AUPR": 99.99,
+            "FPR95": 0.0
+          }
+        },
+        "1": {
+          "semantic": {
+            "AUROC": 83.85,
+            "AUPR": 84.86,
+            "FPR95": 58.57
+          },
+          "covariate": {
+            "AUROC": 99.95,
+            "AUPR": 99.92,
+            "FPR95": 0.0
+          },
+          "far_ood": {
+            "AUROC": 99.99,
+            "AUPR": 99.97,
+            "FPR95": 0.0
+          }
+        },
+        "7": {
+          "semantic": {
+            "AUROC": 79.86,
+            "AUPR": 80.91,
+            "FPR95": 63.33
+          },
+          "covariate": {
+            "AUROC": 100.0,
+            "AUPR": 100.0,
+            "FPR95": 0.0
+          },
+          "far_ood": {
+            "AUROC": 99.89,
+            "AUPR": 99.8,
+            "FPR95": 0.0
+          }
+        },
+        "123": {
+          "semantic": {
+            "AUROC": 80.71,
+            "AUPR": 79.36,
+            "FPR95": 57.62
+          },
+          "covariate": {
+            "AUROC": 99.9,
+            "AUPR": 99.83,
+            "FPR95": 0.0
+          },
+          "far_ood": {
+            "AUROC": 99.88,
+            "AUPR": 99.78,
+            "FPR95": 0.0
+          }
+        },
+        "2024": {
+          "semantic": {
+            "AUROC": 82.78,
+            "AUPR": 83.65,
+            "FPR95": 65.24
+          },
+          "covariate": {
+            "AUROC": 99.79,
+            "AUPR": 99.68,
+            "FPR95": 0.0
+          },
+          "far_ood": {
+            "AUROC": 99.97,
+            "AUPR": 99.95,
+            "FPR95": 0.0
+          }
+        }
+      }
+    }
+  },
+  "dermatology": {
+    "results": {
+      "knn_only": {
+        "42": {
+          "semantic": {
+            "AUROC": 60.89,
+            "AUPR": 55.63,
+            "FPR95": 79.52
+          },
+          "covariate": {
+            "AUROC": 97.06,
+            "AUPR": 96.44,
+            "FPR95": 11.9
+          },
+          "far_ood": {
+            "AUROC": 100.0,
+            "AUPR": 100.0,
+            "FPR95": 0.0
+          }
+        },
+        "1": {
+          "semantic": {
+            "AUROC": 65.22,
+            "AUPR": 57.47,
+            "FPR95": 68.1
+          },
+          "covariate": {
+            "AUROC": 97.6,
+            "AUPR": 96.89,
+            "FPR95": 8.57
+          },
+          "far_ood": {
+            "AUROC": 100.0,
+            "AUPR": 100.0,
+            "FPR95": 0.0
+          }
+        },
+        "7": {
+          "semantic": {
+            "AUROC": 63.11,
+            "AUPR": 57.06,
+            "FPR95": 73.33
+          },
+          "covariate": {
+            "AUROC": 97.7,
+            "AUPR": 97.41,
+            "FPR95": 9.52
+          },
+          "far_ood": {
+            "AUROC": 100.0,
+            "AUPR": 100.0,
+            "FPR95": 0.0
+          }
+        },
+        "123": {
+          "semantic": {
+            "AUROC": 57.97,
+            "AUPR": 53.05,
+            "FPR95": 83.81
+          },
+          "covariate": {
+            "AUROC": 96.76,
+            "AUPR": 95.79,
+            "FPR95": 11.43
+          },
+          "far_ood": {
+            "AUROC": 100.0,
+            "AUPR": 100.0,
+            "FPR95": 0.0
+          }
+        },
+        "2024": {
+          "semantic": {
+            "AUROC": 59.9,
+            "AUPR": 54.29,
+            "FPR95": 77.62
+          },
+          "covariate": {
+            "AUROC": 97.16,
+            "AUPR": 96.59,
+            "FPR95": 9.52
+          },
+          "far_ood": {
+            "AUROC": 100.0,
+            "AUPR": 100.0,
+            "FPR95": 0.0
+          }
+        }
+      },
+      "vocab_generic_only": {
+        "42": {
+          "semantic": {
+            "AUROC": 72.99,
+            "AUPR": 69.87,
+            "FPR95": 79.52
+          },
+          "covariate": {
+            "AUROC": 97.12,
+            "AUPR": 97.32,
+            "FPR95": 14.76
+          },
+          "far_ood": {
+            "AUROC": 78.51,
+            "AUPR": 79.08,
+            "FPR95": 76.67
+          }
+        },
+        "1": {
+          "semantic": {
+            "AUROC": 73.12,
+            "AUPR": 69.85,
+            "FPR95": 79.52
+          },
+          "covariate": {
+            "AUROC": 97.81,
+            "AUPR": 97.93,
+            "FPR95": 10.48
+          },
+          "far_ood": {
+            "AUROC": 77.13,
+            "AUPR": 78.32,
+            "FPR95": 75.24
+          }
+        },
+        "7": {
+          "semantic": {
+            "AUROC": 74.79,
+            "AUPR": 71.31,
+            "FPR95": 74.29
+          },
+          "covariate": {
+            "AUROC": 97.17,
+            "AUPR": 97.34,
+            "FPR95": 15.24
+          },
+          "far_ood": {
+            "AUROC": 78.94,
+            "AUPR": 78.92,
+            "FPR95": 69.52
+          }
+        },
+        "123": {
+          "semantic": {
+            "AUROC": 72.7,
+            "AUPR": 69.58,
+            "FPR95": 80.0
+          },
+          "covariate": {
+            "AUROC": 97.55,
+            "AUPR": 97.77,
+            "FPR95": 14.29
+          },
+          "far_ood": {
+            "AUROC": 77.21,
+            "AUPR": 78.55,
+            "FPR95": 76.67
+          }
+        },
+        "2024": {
+          "semantic": {
+            "AUROC": 71.26,
+            "AUPR": 67.07,
+            "FPR95": 81.43
+          },
+          "covariate": {
+            "AUROC": 97.22,
+            "AUPR": 97.39,
+            "FPR95": 14.29
+          },
+          "far_ood": {
+            "AUROC": 75.66,
+            "AUPR": 76.65,
+            "FPR95": 75.24
+          }
+        }
+      },
+      "scout_generic": {
+        "42": {
+          "semantic": {
+            "AUROC": 66.15,
+            "AUPR": 62.18,
+            "FPR95": 80.48
+          },
+          "covariate": {
+            "AUROC": 97.5,
+            "AUPR": 97.22,
+            "FPR95": 8.1
+          },
+          "far_ood": {
+            "AUROC": 100.0,
+            "AUPR": 100.0,
+            "FPR95": 0.0
+          }
+        },
+        "1": {
+          "semantic": {
+            "AUROC": 67.34,
+            "AUPR": 61.49,
+            "FPR95": 77.14
+          },
+          "covariate": {
+            "AUROC": 97.77,
+            "AUPR": 97.09,
+            "FPR95": 6.67
+          },
+          "far_ood": {
+            "AUROC": 100.0,
+            "AUPR": 100.0,
+            "FPR95": 0.0
+          }
+        },
+        "7": {
+          "semantic": {
+            "AUROC": 69.38,
+            "AUPR": 65.23,
+            "FPR95": 77.14
+          },
+          "covariate": {
+            "AUROC": 97.95,
+            "AUPR": 97.9,
+            "FPR95": 6.67
+          },
+          "far_ood": {
+            "AUROC": 100.0,
+            "AUPR": 100.0,
+            "FPR95": 0.0
+          }
+        },
+        "123": {
+          "semantic": {
+            "AUROC": 61.85,
+            "AUPR": 56.78,
+            "FPR95": 83.33
+          },
+          "covariate": {
+            "AUROC": 97.03,
+            "AUPR": 96.1,
+            "FPR95": 8.1
+          },
+          "far_ood": {
+            "AUROC": 100.0,
+            "AUPR": 100.0,
+            "FPR95": 0.0
+          }
+        },
+        "2024": {
+          "semantic": {
+            "AUROC": 64.73,
+            "AUPR": 59.61,
+            "FPR95": 80.48
+          },
+          "covariate": {
+            "AUROC": 97.51,
+            "AUPR": 97.16,
+            "FPR95": 8.57
+          },
+          "far_ood": {
+            "AUROC": 100.0,
+            "AUPR": 100.0,
+            "FPR95": 0.0
+          }
+        }
+      }
+    }
+  }
+}

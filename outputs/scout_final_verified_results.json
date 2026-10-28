@@ -1,0 +1,1016 @@
+{
+  "ophthalmology": {
+    "metrics": {
+      "knn_only": {
+        "42": {
+          "semantic": {
+            "AUROC": 77.53,
+            "AUPR": 78.56,
+            "FPR95": 61.43
+          },
+          "covariate": {
+            "AUROC": 99.82,
+            "AUPR": 99.72,
+            "FPR95": 0.0
+          },
+          "far_ood": {
+            "AUROC": 100.0,
+            "AUPR": 99.99,
+            "FPR95": 0.0
+          }
+        },
+        "1": {
+          "semantic": {
+            "AUROC": 80.08,
+            "AUPR": 82.59,
+            "FPR95": 62.38
+          },
+          "covariate": {
+            "AUROC": 99.98,
+            "AUPR": 99.97,
+            "FPR95": 0.0
+          },
+          "far_ood": {
+            "AUROC": 100.0,
+            "AUPR": 100.0,
+            "FPR95": 0.0
+          }
+        },
+        "7": {
+          "semantic": {
+            "AUROC": 76.09,
+            "AUPR": 77.35,
+            "FPR95": 61.9
+          },
+          "covariate": {
+            "AUROC": 100.0,
+            "AUPR": 100.0,
+            "FPR95": 0.0
+          },
+          "far_ood": {
+            "AUROC": 99.94,
+            "AUPR": 99.89,
+            "FPR95": 0.0
+          }
+        },
+        "123": {
+          "semantic": {
+            "AUROC": 76.83,
+            "AUPR": 76.62,
+            "FPR95": 63.81
+          },
+          "covariate": {
+            "AUROC": 99.93,
+            "AUPR": 99.87,
+            "FPR95": 0.0
+          },
+          "far_ood": {
+            "AUROC": 99.88,
+            "AUPR": 99.78,
+            "FPR95": 0.0
+          }
+        },
+        "2024": {
+          "semantic": {
+            "AUROC": 78.64,
+            "AUPR": 80.81,
+            "FPR95": 61.43
+          },
+          "covariate": {
+            "AUROC": 99.89,
+            "AUPR": 99.81,
+            "FPR95": 0.0
+          },
+          "far_ood": {
+            "AUROC": 99.99,
+            "AUPR": 99.98,
+            "FPR95": 0.0
+          }
+        }
+      },
+      "vocab_only": {
+        "42": {
+          "semantic": {
+            "AUROC": 89.59,
+            "AUPR": 88.46,
+            "FPR95": 38.1
+          },
+          "covariate": {
+            "AUROC": 99.81,
+            "AUPR": 99.65,
+            "FPR95": 0.48
+          },
+          "far_ood": {
+            "AUROC": 96.6,
+            "AUPR": 93.24,
+            "FPR95": 19.05
+          }
+        },
+        "1": {
+          "semantic": {
+            "AUROC": 89.11,
+            "AUPR": 87.81,
+            "FPR95": 41.9
+          },
+          "covariate": {
+            "AUROC": 99.88,
+            "AUPR": 99.77,
+            "FPR95": 0.48
+          },
+          "far_ood": {
+            "AUROC": 95.59,
+            "AUPR": 91.37,
+            "FPR95": 19.52
+          }
+        },
+        "7": {
+          "semantic": {
+            "AUROC": 88.91,
+            "AUPR": 88.26,
+            "FPR95": 39.05
+          },
+          "covariate": {
+            "AUROC": 99.94,
+            "AUPR": 99.87,
+            "FPR95": 0.0
+          },
+          "far_ood": {
+            "AUROC": 96.4,
+            "AUPR": 93.35,
+            "FPR95": 16.67
+          }
+        },
+        "123": {
+          "semantic": {
+            "AUROC": 90.53,
+            "AUPR": 89.87,
+            "FPR95": 37.14
+          },
+          "covariate": {
+            "AUROC": 99.84,
+            "AUPR": 99.72,
+            "FPR95": 0.0
+          },
+          "far_ood": {
+            "AUROC": 97.07,
+            "AUPR": 94.29,
+            "FPR95": 14.29
+          }
+        },
+        "2024": {
+          "semantic": {
+            "AUROC": 89.93,
+            "AUPR": 88.65,
+            "FPR95": 38.57
+          },
+          "covariate": {
+            "AUROC": 99.78,
+            "AUPR": 99.6,
+            "FPR95": 0.48
+          },
+          "far_ood": {
+            "AUROC": 96.45,
+            "AUPR": 93.25,
+            "FPR95": 18.57
+          }
+        }
+      },
+      "fusion": {
+        "42": {
+          "semantic": {
+            "AUROC": 86.13,
+            "AUPR": 86.01,
+            "FPR95": 50.48
+          },
+          "covariate": {
+            "AUROC": 99.79,
+            "AUPR": 99.71,
+            "FPR95": 0.0
+          },
+          "far_ood": {
+            "AUROC": 100.0,
+            "AUPR": 99.99,
+            "FPR95": 0.0
+          }
+        },
+        "1": {
+          "semantic": {
+            "AUROC": 87.79,
+            "AUPR": 88.11,
+            "FPR95": 45.24
+          },
+          "covariate": {
+            "AUROC": 100.0,
+            "AUPR": 100.0,
+            "FPR95": 0.0
+          },
+          "far_ood": {
+            "AUROC": 99.97,
+            "AUPR": 99.94,
+            "FPR95": 0.0
+          }
+        },
+        "7": {
+          "semantic": {
+            "AUROC": 85.23,
+            "AUPR": 86.03,
+            "FPR95": 55.71
+          },
+          "covariate": {
+            "AUROC": 100.0,
+            "AUPR": 100.0,
+            "FPR95": 0.0
+          },
+          "far_ood": {
+            "AUROC": 99.88,
+            "AUPR": 99.78,
+            "FPR95": 0.0
+          }
+        },
+        "123": {
+          "semantic": {
+            "AUROC": 85.83,
+            "AUPR": 84.59,
+            "FPR95": 42.86
+          },
+          "covariate": {
+            "AUROC": 99.9,
+            "AUPR": 99.83,
+            "FPR95": 0.0
+          },
+          "far_ood": {
+            "AUROC": 99.87,
+            "AUPR": 99.77,
+            "FPR95": 0.0
+          }
+        },
+        "2024": {
+          "semantic": {
+            "AUROC": 87.81,
+            "AUPR": 87.78,
+            "FPR95": 42.86
+          },
+          "covariate": {
+            "AUROC": 99.84,
+            "AUPR": 99.76,
+            "FPR95": 0.0
+          },
+          "far_ood": {
+            "AUROC": 99.95,
+            "AUPR": 99.9,
+            "FPR95": 0.0
+          }
+        }
+      }
+    },
+    "gains": [
+      {
+        "seed": 42,
+        "shift": "semantic",
+        "comparison": "fusion-vs-knn",
+        "delta_AUROC_pp": 8.603,
+        "CI95_low": 5.882,
+        "CI95_high": 11.316
+      },
+      {
+        "seed": 42,
+        "shift": "semantic",
+        "comparison": "fusion-vs-vocab",
+        "delta_AUROC_pp": -3.46,
+        "CI95_low": -5.676,
+        "CI95_high": -1.49
+      },
+      {
+        "seed": 42,
+        "shift": "covariate",
+        "comparison": "fusion-vs-knn",
+        "delta_AUROC_pp": -0.027,
+        "CI95_low": -0.172,
+        "CI95_high": 0.063
+      },
+      {
+        "seed": 42,
+        "shift": "covariate",
+        "comparison": "fusion-vs-vocab",
+        "delta_AUROC_pp": -0.018,
+        "CI95_low": -0.309,
+        "CI95_high": 0.209
+      },
+      {
+        "seed": 42,
+        "shift": "far_ood",
+        "comparison": "fusion-vs-knn",
+        "delta_AUROC_pp": 0.0,
+        "CI95_low": -0.0,
+        "CI95_high": 0.0
+      },
+      {
+        "seed": 42,
+        "shift": "far_ood",
+        "comparison": "fusion-vs-vocab",
+        "delta_AUROC_pp": 3.397,
+        "CI95_low": 1.818,
+        "CI95_high": 5.302
+      },
+      {
+        "seed": 1,
+        "shift": "semantic",
+        "comparison": "fusion-vs-knn",
+        "delta_AUROC_pp": 7.71,
+        "CI95_low": 4.893,
+        "CI95_high": 10.815
+      },
+      {
+        "seed": 1,
+        "shift": "semantic",
+        "comparison": "fusion-vs-vocab",
+        "delta_AUROC_pp": -1.32,
+        "CI95_low": -2.93,
+        "CI95_high": 0.161
+      },
+      {
+        "seed": 1,
+        "shift": "covariate",
+        "comparison": "fusion-vs-knn",
+        "delta_AUROC_pp": 0.018,
+        "CI95_low": -0.0,
+        "CI95_high": 0.073
+      },
+      {
+        "seed": 1,
+        "shift": "covariate",
+        "comparison": "fusion-vs-vocab",
+        "delta_AUROC_pp": 0.118,
+        "CI95_low": 0.005,
+        "CI95_high": 0.299
+      },
+      {
+        "seed": 1,
+        "shift": "far_ood",
+        "comparison": "fusion-vs-knn",
+        "delta_AUROC_pp": -0.032,
+        "CI95_low": -0.113,
+        "CI95_high": 0.0
+      },
+      {
+        "seed": 1,
+        "shift": "far_ood",
+        "comparison": "fusion-vs-vocab",
+        "delta_AUROC_pp": 4.376,
+        "CI95_low": 2.594,
+        "CI95_high": 6.531
+      },
+      {
+        "seed": 7,
+        "shift": "semantic",
+        "comparison": "fusion-vs-knn",
+        "delta_AUROC_pp": 9.143,
+        "CI95_low": 6.236,
+        "CI95_high": 12.558
+      },
+      {
+        "seed": 7,
+        "shift": "semantic",
+        "comparison": "fusion-vs-vocab",
+        "delta_AUROC_pp": -3.678,
+        "CI95_low": -5.736,
+        "CI95_high": -1.791
+      },
+      {
+        "seed": 7,
+        "shift": "covariate",
+        "comparison": "fusion-vs-knn",
+        "delta_AUROC_pp": 0.0,
+        "CI95_low": -0.0,
+        "CI95_high": 0.0
+      },
+      {
+        "seed": 7,
+        "shift": "covariate",
+        "comparison": "fusion-vs-vocab",
+        "delta_AUROC_pp": 0.063,
+        "CI95_low": 0.0,
+        "CI95_high": 0.182
+      },
+      {
+        "seed": 7,
+        "shift": "far_ood",
+        "comparison": "fusion-vs-knn",
+        "delta_AUROC_pp": -0.059,
+        "CI95_low": -0.181,
+        "CI95_high": 0.005
+      },
+      {
+        "seed": 7,
+        "shift": "far_ood",
+        "comparison": "fusion-vs-vocab",
+        "delta_AUROC_pp": 3.478,
+        "CI95_low": 1.968,
+        "CI95_high": 5.148
+      },
+      {
+        "seed": 123,
+        "shift": "semantic",
+        "comparison": "fusion-vs-knn",
+        "delta_AUROC_pp": 9.007,
+        "CI95_low": 6.512,
+        "CI95_high": 11.883
+      },
+      {
+        "seed": 123,
+        "shift": "semantic",
+        "comparison": "fusion-vs-vocab",
+        "delta_AUROC_pp": -4.701,
+        "CI95_low": -7.059,
+        "CI95_high": -2.558
+      },
+      {
+        "seed": 123,
+        "shift": "covariate",
+        "comparison": "fusion-vs-knn",
+        "delta_AUROC_pp": -0.023,
+        "CI95_low": -0.095,
+        "CI95_high": 0.0
+      },
+      {
+        "seed": 123,
+        "shift": "covariate",
+        "comparison": "fusion-vs-vocab",
+        "delta_AUROC_pp": 0.063,
+        "CI95_low": -0.032,
+        "CI95_high": 0.213
+      },
+      {
+        "seed": 123,
+        "shift": "far_ood",
+        "comparison": "fusion-vs-knn",
+        "delta_AUROC_pp": -0.009,
+        "CI95_low": -0.091,
+        "CI95_high": 0.063
+      },
+      {
+        "seed": 123,
+        "shift": "far_ood",
+        "comparison": "fusion-vs-vocab",
+        "delta_AUROC_pp": 2.807,
+        "CI95_low": 1.465,
+        "CI95_high": 4.482
+      },
+      {
+        "seed": 2024,
+        "shift": "semantic",
+        "comparison": "fusion-vs-knn",
+        "delta_AUROC_pp": 9.177,
+        "CI95_low": 6.195,
+        "CI95_high": 12.476
+      },
+      {
+        "seed": 2024,
+        "shift": "semantic",
+        "comparison": "fusion-vs-vocab",
+        "delta_AUROC_pp": -2.111,
+        "CI95_low": -3.937,
+        "CI95_high": -0.412
+      },
+      {
+        "seed": 2024,
+        "shift": "covariate",
+        "comparison": "fusion-vs-knn",
+        "delta_AUROC_pp": -0.05,
+        "CI95_low": -0.218,
+        "CI95_high": 0.018
+      },
+      {
+        "seed": 2024,
+        "shift": "covariate",
+        "comparison": "fusion-vs-vocab",
+        "delta_AUROC_pp": 0.054,
+        "CI95_low": -0.172,
+        "CI95_high": 0.29
+      },
+      {
+        "seed": 2024,
+        "shift": "far_ood",
+        "comparison": "fusion-vs-knn",
+        "delta_AUROC_pp": -0.045,
+        "CI95_low": -0.159,
+        "CI95_high": 0.0
+      },
+      {
+        "seed": 2024,
+        "shift": "far_ood",
+        "comparison": "fusion-vs-vocab",
+        "delta_AUROC_pp": 3.497,
+        "CI95_low": 2.0,
+        "CI95_high": 5.524
+      }
+    ]
+  },
+  "dermatology": {
+    "metrics": {
+      "knn_only": {
+        "42": {
+          "semantic": {
+            "AUROC": 60.89,
+            "AUPR": 55.63,
+            "FPR95": 79.52
+          },
+          "covariate": {
+            "AUROC": 97.06,
+            "AUPR": 96.44,
+            "FPR95": 11.9
+          },
+          "far_ood": {
+            "AUROC": 100.0,
+            "AUPR": 100.0,
+            "FPR95": 0.0
+          }
+        },
+        "1": {
+          "semantic": {
+            "AUROC": 65.22,
+            "AUPR": 57.47,
+            "FPR95": 68.1
+          },
+          "covariate": {
+            "AUROC": 97.6,
+            "AUPR": 96.89,
+            "FPR95": 8.57
+          },
+          "far_ood": {
+            "AUROC": 100.0,
+            "AUPR": 100.0,
+            "FPR95": 0.0
+          }
+        },
+        "7": {
+          "semantic": {
+            "AUROC": 63.11,
+            "AUPR": 57.06,
+            "FPR95": 73.33
+          },
+          "covariate": {
+            "AUROC": 97.7,
+            "AUPR": 97.41,
+            "FPR95": 9.52
+          },
+          "far_ood": {
+            "AUROC": 100.0,
+            "AUPR": 100.0,
+            "FPR95": 0.0
+          }
+        },
+        "123": {
+          "semantic": {
+            "AUROC": 57.97,
+            "AUPR": 53.05,
+            "FPR95": 83.81
+          },
+          "covariate": {
+            "AUROC": 96.76,
+            "AUPR": 95.79,
+            "FPR95": 11.43
+          },
+          "far_ood": {
+            "AUROC": 100.0,
+            "AUPR": 100.0,
+            "FPR95": 0.0
+          }
+        },
+        "2024": {
+          "semantic": {
+            "AUROC": 59.9,
+            "AUPR": 54.29,
+            "FPR95": 77.62
+          },
+          "covariate": {
+            "AUROC": 97.16,
+            "AUPR": 96.59,
+            "FPR95": 9.52
+          },
+          "far_ood": {
+            "AUROC": 100.0,
+            "AUPR": 100.0,
+            "FPR95": 0.0
+          }
+        }
+      },
+      "vocab_only": {
+        "42": {
+          "semantic": {
+            "AUROC": 81.89,
+            "AUPR": 80.63,
+            "FPR95": 63.81
+          },
+          "covariate": {
+            "AUROC": 85.43,
+            "AUPR": 87.67,
+            "FPR95": 70.95
+          },
+          "far_ood": {
+            "AUROC": 82.44,
+            "AUPR": 79.8,
+            "FPR95": 63.81
+          }
+        },
+        "1": {
+          "semantic": {
+            "AUROC": 81.26,
+            "AUPR": 79.48,
+            "FPR95": 64.29
+          },
+          "covariate": {
+            "AUROC": 84.79,
+            "AUPR": 87.45,
+            "FPR95": 76.67
+          },
+          "far_ood": {
+            "AUROC": 80.53,
+            "AUPR": 78.17,
+            "FPR95": 72.86
+          }
+        },
+        "7": {
+          "semantic": {
+            "AUROC": 82.95,
+            "AUPR": 81.45,
+            "FPR95": 60.95
+          },
+          "covariate": {
+            "AUROC": 84.26,
+            "AUPR": 86.71,
+            "FPR95": 71.43
+          },
+          "far_ood": {
+            "AUROC": 82.11,
+            "AUPR": 79.26,
+            "FPR95": 66.67
+          }
+        },
+        "123": {
+          "semantic": {
+            "AUROC": 82.16,
+            "AUPR": 81.47,
+            "FPR95": 65.24
+          },
+          "covariate": {
+            "AUROC": 86.03,
+            "AUPR": 88.84,
+            "FPR95": 72.86
+          },
+          "far_ood": {
+            "AUROC": 82.08,
+            "AUPR": 80.9,
+            "FPR95": 70.95
+          }
+        },
+        "2024": {
+          "semantic": {
+            "AUROC": 80.73,
+            "AUPR": 78.73,
+            "FPR95": 66.67
+          },
+          "covariate": {
+            "AUROC": 84.71,
+            "AUPR": 87.27,
+            "FPR95": 73.81
+          },
+          "far_ood": {
+            "AUROC": 79.38,
+            "AUPR": 76.21,
+            "FPR95": 67.62
+          }
+        }
+      },
+      "fusion": {
+        "42": {
+          "semantic": {
+            "AUROC": 74.81,
+            "AUPR": 71.43,
+            "FPR95": 74.76
+          },
+          "covariate": {
+            "AUROC": 96.42,
+            "AUPR": 95.89,
+            "FPR95": 13.81
+          },
+          "far_ood": {
+            "AUROC": 100.0,
+            "AUPR": 100.0,
+            "FPR95": 0.0
+          }
+        },
+        "1": {
+          "semantic": {
+            "AUROC": 76.08,
+            "AUPR": 70.49,
+            "FPR95": 74.29
+          },
+          "covariate": {
+            "AUROC": 96.96,
+            "AUPR": 96.36,
+            "FPR95": 8.1
+          },
+          "far_ood": {
+            "AUROC": 100.0,
+            "AUPR": 100.0,
+            "FPR95": 0.0
+          }
+        },
+        "7": {
+          "semantic": {
+            "AUROC": 79.19,
+            "AUPR": 76.34,
+            "FPR95": 65.71
+          },
+          "covariate": {
+            "AUROC": 96.76,
+            "AUPR": 96.45,
+            "FPR95": 12.86
+          },
+          "far_ood": {
+            "AUROC": 100.0,
+            "AUPR": 100.0,
+            "FPR95": 0.0
+          }
+        },
+        "123": {
+          "semantic": {
+            "AUROC": 71.59,
+            "AUPR": 65.44,
+            "FPR95": 75.71
+          },
+          "covariate": {
+            "AUROC": 96.69,
+            "AUPR": 95.8,
+            "FPR95": 11.9
+          },
+          "far_ood": {
+            "AUROC": 100.0,
+            "AUPR": 100.0,
+            "FPR95": 0.0
+          }
+        },
+        "2024": {
+          "semantic": {
+            "AUROC": 74.52,
+            "AUPR": 69.95,
+            "FPR95": 75.24
+          },
+          "covariate": {
+            "AUROC": 96.37,
+            "AUPR": 95.97,
+            "FPR95": 12.86
+          },
+          "far_ood": {
+            "AUROC": 100.0,
+            "AUPR": 100.0,
+            "FPR95": 0.0
+          }
+        }
+      }
+    },
+    "gains": [
+      {
+        "seed": 42,
+        "shift": "semantic",
+        "comparison": "fusion-vs-knn",
+        "delta_AUROC_pp": 13.925,
+        "CI95_low": 9.508,
+        "CI95_high": 18.307
+      },
+      {
+        "seed": 42,
+        "shift": "semantic",
+        "comparison": "fusion-vs-vocab",
+        "delta_AUROC_pp": -7.075,
+        "CI95_low": -10.17,
+        "CI95_high": -4.094
+      },
+      {
+        "seed": 42,
+        "shift": "covariate",
+        "comparison": "fusion-vs-knn",
+        "delta_AUROC_pp": -0.644,
+        "CI95_low": -1.519,
+        "CI95_high": 0.123
+      },
+      {
+        "seed": 42,
+        "shift": "covariate",
+        "comparison": "fusion-vs-vocab",
+        "delta_AUROC_pp": 10.989,
+        "CI95_low": 7.378,
+        "CI95_high": 14.399
+      },
+      {
+        "seed": 42,
+        "shift": "far_ood",
+        "comparison": "fusion-vs-knn",
+        "delta_AUROC_pp": 0.0,
+        "CI95_low": -0.0,
+        "CI95_high": 0.0
+      },
+      {
+        "seed": 42,
+        "shift": "far_ood",
+        "comparison": "fusion-vs-vocab",
+        "delta_AUROC_pp": 17.562,
+        "CI95_low": 13.688,
+        "CI95_high": 21.624
+      },
+      {
+        "seed": 1,
+        "shift": "semantic",
+        "comparison": "fusion-vs-knn",
+        "delta_AUROC_pp": 10.857,
+        "CI95_low": 6.623,
+        "CI95_high": 15.289
+      },
+      {
+        "seed": 1,
+        "shift": "semantic",
+        "comparison": "fusion-vs-vocab",
+        "delta_AUROC_pp": -5.181,
+        "CI95_low": -7.921,
+        "CI95_high": -2.385
+      },
+      {
+        "seed": 1,
+        "shift": "covariate",
+        "comparison": "fusion-vs-knn",
+        "delta_AUROC_pp": -0.639,
+        "CI95_low": -1.322,
+        "CI95_high": -0.038
+      },
+      {
+        "seed": 1,
+        "shift": "covariate",
+        "comparison": "fusion-vs-vocab",
+        "delta_AUROC_pp": 12.168,
+        "CI95_low": 8.464,
+        "CI95_high": 15.849
+      },
+      {
+        "seed": 1,
+        "shift": "far_ood",
+        "comparison": "fusion-vs-knn",
+        "delta_AUROC_pp": 0.0,
+        "CI95_low": -0.0,
+        "CI95_high": 0.0
+      },
+      {
+        "seed": 1,
+        "shift": "far_ood",
+        "comparison": "fusion-vs-vocab",
+        "delta_AUROC_pp": 19.474,
+        "CI95_low": 15.183,
+        "CI95_high": 23.618
+      },
+      {
+        "seed": 7,
+        "shift": "semantic",
+        "comparison": "fusion-vs-knn",
+        "delta_AUROC_pp": 16.079,
+        "CI95_low": 11.209,
+        "CI95_high": 20.715
+      },
+      {
+        "seed": 7,
+        "shift": "semantic",
+        "comparison": "fusion-vs-vocab",
+        "delta_AUROC_pp": -3.766,
+        "CI95_low": -6.146,
+        "CI95_high": -1.396
+      },
+      {
+        "seed": 7,
+        "shift": "covariate",
+        "comparison": "fusion-vs-knn",
+        "delta_AUROC_pp": -0.948,
+        "CI95_low": -1.914,
+        "CI95_high": -0.095
+      },
+      {
+        "seed": 7,
+        "shift": "covariate",
+        "comparison": "fusion-vs-vocab",
+        "delta_AUROC_pp": 12.497,
+        "CI95_low": 9.026,
+        "CI95_high": 15.942
+      },
+      {
+        "seed": 7,
+        "shift": "far_ood",
+        "comparison": "fusion-vs-knn",
+        "delta_AUROC_pp": 0.0,
+        "CI95_low": -0.0,
+        "CI95_high": 0.0
+      },
+      {
+        "seed": 7,
+        "shift": "far_ood",
+        "comparison": "fusion-vs-vocab",
+        "delta_AUROC_pp": 17.893,
+        "CI95_low": 13.72,
+        "CI95_high": 21.958
+      },
+      {
+        "seed": 123,
+        "shift": "semantic",
+        "comparison": "fusion-vs-knn",
+        "delta_AUROC_pp": 13.621,
+        "CI95_low": 9.771,
+        "CI95_high": 17.694
+      },
+      {
+        "seed": 123,
+        "shift": "semantic",
+        "comparison": "fusion-vs-vocab",
+        "delta_AUROC_pp": -10.565,
+        "CI95_low": -14.689,
+        "CI95_high": -6.997
+      },
+      {
+        "seed": 123,
+        "shift": "covariate",
+        "comparison": "fusion-vs-knn",
+        "delta_AUROC_pp": -0.073,
+        "CI95_low": -0.528,
+        "CI95_high": 0.327
+      },
+      {
+        "seed": 123,
+        "shift": "covariate",
+        "comparison": "fusion-vs-vocab",
+        "delta_AUROC_pp": 10.662,
+        "CI95_low": 7.227,
+        "CI95_high": 14.404
+      },
+      {
+        "seed": 123,
+        "shift": "far_ood",
+        "comparison": "fusion-vs-knn",
+        "delta_AUROC_pp": 0.0,
+        "CI95_low": -0.0,
+        "CI95_high": 0.0
+      },
+      {
+        "seed": 123,
+        "shift": "far_ood",
+        "comparison": "fusion-vs-vocab",
+        "delta_AUROC_pp": 17.918,
+        "CI95_low": 13.831,
+        "CI95_high": 21.715
+      },
+      {
+        "seed": 2024,
+        "shift": "semantic",
+        "comparison": "fusion-vs-knn",
+        "delta_AUROC_pp": 14.626,
+        "CI95_low": 10.2,
+        "CI95_high": 19.245
+      },
+      {
+        "seed": 2024,
+        "shift": "semantic",
+        "comparison": "fusion-vs-vocab",
+        "delta_AUROC_pp": -6.206,
+        "CI95_low": -9.055,
+        "CI95_high": -3.555
+      },
+      {
+        "seed": 2024,
+        "shift": "covariate",
+        "comparison": "fusion-vs-knn",
+        "delta_AUROC_pp": -0.796,
+        "CI95_low": -1.562,
+        "CI95_high": -0.052
+      },
+      {
+        "seed": 2024,
+        "shift": "covariate",
+        "comparison": "fusion-vs-vocab",
+        "delta_AUROC_pp": 11.655,
+        "CI95_low": 8.127,
+        "CI95_high": 15.184
+      },
+      {
+        "seed": 2024,
+        "shift": "far_ood",
+        "comparison": "fusion-vs-knn",
+        "delta_AUROC_pp": 0.0,
+        "CI95_low": -0.0,
+        "CI95_high": 0.0
+      },
+      {
+        "seed": 2024,
+        "shift": "far_ood",
+        "comparison": "fusion-vs-vocab",
+        "delta_AUROC_pp": 20.621,
+        "CI95_low": 16.576,
+        "CI95_high": 24.619
+      }
+    ]
+  }
+}

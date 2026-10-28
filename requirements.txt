@@ -1,0 +1,13 @@
+torch==2.8.0+cu128
+torchvision==0.23.0+cu128
+torchaudio==2.8.0+cu128
+open_clip_torch
+transformers
+numpy
+pandas
+pillow
+scikit-learn
+scikit-image
+kornia
+tqdm
+safetensors

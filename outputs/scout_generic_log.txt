@@ -1,0 +1,36 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|██████████| 199/199 [00:00<00:00, 64363.55it/s]
+load model weight from: ./flair/modeling/flair_pretrained_weights/flair_resnet.pth
+Manifest rows: 900
+  300/900
+  600/900
+  900/900
+  [ophthalmology] seed 42 done
+  [ophthalmology] seed 1 done
+  [ophthalmology] seed 7 done
+  [ophthalmology] seed 123 done
+  [ophthalmology] seed 2024 done
+
+==========================================================================================
+[ophthalmology]
+knn_only               | semantic= 77.8( 62.2)  covariate= 99.9(  0.0)  far_ood=100.0(  0.0)   mean=92.57
+vocab_generic_only     | semantic= 82.4( 55.1)  covariate= 99.1(  4.3)  far_ood= 97.7(  8.3)   mean=93.09
+scout_generic          | semantic= 81.8( 59.3)  covariate= 99.9(  0.0)  far_ood= 99.9(  0.0)   mean=93.88
+Manifest rows: 1200
+  300/1200
+  600/1200
+  900/1200
+  1200/1200
+  [dermatology] seed 42 done
+  [dermatology] seed 1 done
+  [dermatology] seed 7 done
+  [dermatology] seed 123 done
+  [dermatology] seed 2024 done
+
+==========================================================================================
+[dermatology]
+knn_only               | semantic= 61.4( 76.5)  covariate= 97.3( 10.2)  far_ood=100.0(  0.0)   mean=86.22
+vocab_generic_only     | semantic= 73.0( 79.0)  covariate= 97.4( 13.8)  far_ood= 77.5( 74.7)   mean=82.61
+scout_generic          | semantic= 65.9( 79.7)  covariate= 97.6(  7.6)  far_ood=100.0(  0.0)   mean=87.81
+
+Written to /workspace/medical_ood/outputs/scout_generic_vocab_results.json

@@ -1,0 +1,100 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|██████████| 199/199 [00:00<00:00, 64507.81it/s]
+load model weight from: ./flair/modeling/flair_pretrained_weights/flair_resnet.pth
+Manifest rows: 900
+  300/900
+  600/900
+  900/900
+  [ophthalmology] seed 42 done
+  [ophthalmology] seed 1 done
+  [ophthalmology] seed 7 done
+  [ophthalmology] seed 123 done
+  [ophthalmology] seed 2024 done
+
+==========================================================================================
+[ophthalmology] means across seeds:
+knn_only     | semantic=77.83+/-1.40  covariate=99.92+/-0.06  far_ood=99.96+/-0.05  
+vocab_only   | semantic=89.61+/-0.58  covariate=99.85+/-0.06  far_ood=96.42+/-0.48  
+fusion       | semantic=86.56+/-1.05  covariate=99.91+/-0.08  far_ood=99.93+/-0.05  
+
+[ophthalmology] paired bootstrap, fusion vs components, per shift, per seed:
+  seed=42 shift=semantic fusion-vs-knn: delta=8.603 CI=[5.882,11.316]
+  seed=42 shift=semantic fusion-vs-vocab: delta=-3.46 CI=[-5.676,-1.49]
+  seed=42 shift=covariate fusion-vs-knn: delta=-0.027 CI=[-0.172,0.063]
+  seed=42 shift=covariate fusion-vs-vocab: delta=-0.018 CI=[-0.309,0.209]
+  seed=42 shift=far_ood fusion-vs-knn: delta=0.0 CI=[-0.0,0.0]
+  seed=42 shift=far_ood fusion-vs-vocab: delta=3.397 CI=[1.818,5.302]
+  seed=1 shift=semantic fusion-vs-knn: delta=7.71 CI=[4.893,10.815]
+  seed=1 shift=semantic fusion-vs-vocab: delta=-1.32 CI=[-2.93,0.161]
+  seed=1 shift=covariate fusion-vs-knn: delta=0.018 CI=[-0.0,0.073]
+  seed=1 shift=covariate fusion-vs-vocab: delta=0.118 CI=[0.005,0.299]
+  seed=1 shift=far_ood fusion-vs-knn: delta=-0.032 CI=[-0.113,0.0]
+  seed=1 shift=far_ood fusion-vs-vocab: delta=4.376 CI=[2.594,6.531]
+  seed=7 shift=semantic fusion-vs-knn: delta=9.143 CI=[6.236,12.558]
+  seed=7 shift=semantic fusion-vs-vocab: delta=-3.678 CI=[-5.736,-1.791]
+  seed=7 shift=covariate fusion-vs-knn: delta=0.0 CI=[-0.0,0.0]
+  seed=7 shift=covariate fusion-vs-vocab: delta=0.063 CI=[0.0,0.182]
+  seed=7 shift=far_ood fusion-vs-knn: delta=-0.059 CI=[-0.181,0.005]
+  seed=7 shift=far_ood fusion-vs-vocab: delta=3.478 CI=[1.968,5.148]
+  seed=123 shift=semantic fusion-vs-knn: delta=9.007 CI=[6.512,11.883]
+  seed=123 shift=semantic fusion-vs-vocab: delta=-4.701 CI=[-7.059,-2.558]
+  seed=123 shift=covariate fusion-vs-knn: delta=-0.023 CI=[-0.095,0.0]
+  seed=123 shift=covariate fusion-vs-vocab: delta=0.063 CI=[-0.032,0.213]
+  seed=123 shift=far_ood fusion-vs-knn: delta=-0.009 CI=[-0.091,0.063]
+  seed=123 shift=far_ood fusion-vs-vocab: delta=2.807 CI=[1.465,4.482]
+  seed=2024 shift=semantic fusion-vs-knn: delta=9.177 CI=[6.195,12.476]
+  seed=2024 shift=semantic fusion-vs-vocab: delta=-2.111 CI=[-3.937,-0.412]
+  seed=2024 shift=covariate fusion-vs-knn: delta=-0.05 CI=[-0.218,0.018]
+  seed=2024 shift=covariate fusion-vs-vocab: delta=0.054 CI=[-0.172,0.29]
+  seed=2024 shift=far_ood fusion-vs-knn: delta=-0.045 CI=[-0.159,0.0]
+  seed=2024 shift=far_ood fusion-vs-vocab: delta=3.497 CI=[2.0,5.524]
+Manifest rows: 1200
+  300/1200
+  600/1200
+  900/1200
+  1200/1200
+  [dermatology] seed 42 done
+  [dermatology] seed 1 done
+  [dermatology] seed 7 done
+  [dermatology] seed 123 done
+  [dermatology] seed 2024 done
+
+==========================================================================================
+[dermatology] means across seeds:
+knn_only     | semantic=61.42+/-2.52  covariate=97.26+/-0.35  far_ood=100.00+/-0.00  
+vocab_only   | semantic=81.80+/-0.76  covariate=85.04+/-0.62  far_ood=81.31+/-1.17  
+fusion       | semantic=75.24+/-2.46  covariate=96.64+/-0.22  far_ood=100.00+/-0.00  
+
+[dermatology] paired bootstrap, fusion vs components, per shift, per seed:
+  seed=42 shift=semantic fusion-vs-knn: delta=13.925 CI=[9.508,18.307]
+  seed=42 shift=semantic fusion-vs-vocab: delta=-7.075 CI=[-10.17,-4.094]
+  seed=42 shift=covariate fusion-vs-knn: delta=-0.644 CI=[-1.519,0.123]
+  seed=42 shift=covariate fusion-vs-vocab: delta=10.989 CI=[7.378,14.399]
+  seed=42 shift=far_ood fusion-vs-knn: delta=0.0 CI=[-0.0,0.0]
+  seed=42 shift=far_ood fusion-vs-vocab: delta=17.562 CI=[13.688,21.624]
+  seed=1 shift=semantic fusion-vs-knn: delta=10.857 CI=[6.623,15.289]
+  seed=1 shift=semantic fusion-vs-vocab: delta=-5.181 CI=[-7.921,-2.385]
+  seed=1 shift=covariate fusion-vs-knn: delta=-0.639 CI=[-1.322,-0.038]
+  seed=1 shift=covariate fusion-vs-vocab: delta=12.168 CI=[8.464,15.849]
+  seed=1 shift=far_ood fusion-vs-knn: delta=0.0 CI=[-0.0,0.0]
+  seed=1 shift=far_ood fusion-vs-vocab: delta=19.474 CI=[15.183,23.618]
+  seed=7 shift=semantic fusion-vs-knn: delta=16.079 CI=[11.209,20.715]
+  seed=7 shift=semantic fusion-vs-vocab: delta=-3.766 CI=[-6.146,-1.396]
+  seed=7 shift=covariate fusion-vs-knn: delta=-0.948 CI=[-1.914,-0.095]
+  seed=7 shift=covariate fusion-vs-vocab: delta=12.497 CI=[9.026,15.942]
+  seed=7 shift=far_ood fusion-vs-knn: delta=0.0 CI=[-0.0,0.0]
+  seed=7 shift=far_ood fusion-vs-vocab: delta=17.893 CI=[13.72,21.958]
+  seed=123 shift=semantic fusion-vs-knn: delta=13.621 CI=[9.771,17.694]
+  seed=123 shift=semantic fusion-vs-vocab: delta=-10.565 CI=[-14.689,-6.997]
+  seed=123 shift=covariate fusion-vs-knn: delta=-0.073 CI=[-0.528,0.327]
+  seed=123 shift=covariate fusion-vs-vocab: delta=10.662 CI=[7.227,14.404]
+  seed=123 shift=far_ood fusion-vs-knn: delta=0.0 CI=[-0.0,0.0]
+  seed=123 shift=far_ood fusion-vs-vocab: delta=17.918 CI=[13.831,21.715]
+  seed=2024 shift=semantic fusion-vs-knn: delta=14.626 CI=[10.2,19.245]
+  seed=2024 shift=semantic fusion-vs-vocab: delta=-6.206 CI=[-9.055,-3.555]
+  seed=2024 shift=covariate fusion-vs-knn: delta=-0.796 CI=[-1.562,-0.052]
+  seed=2024 shift=covariate fusion-vs-vocab: delta=11.655 CI=[8.127,15.184]
+  seed=2024 shift=far_ood fusion-vs-knn: delta=0.0 CI=[-0.0,0.0]
+  seed=2024 shift=far_ood fusion-vs-vocab: delta=20.621 CI=[16.576,24.619]
+
+Written to /workspace/medical_ood/outputs/scout_final_verified_results.json
